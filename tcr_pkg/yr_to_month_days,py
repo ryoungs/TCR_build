@@ -1,0 +1,22 @@
+def convert_decimal_years_to_months_days(decimal_years):
+    # Constants
+    days_in_year = 365.25  # Average days in a year considering leap years
+    days_in_month = days_in_year / 12  # Average days in a month
+
+    # Convert decimal years to total days
+    total_days = decimal_years * days_in_year
+
+    # Calculate the number of whole months
+    months = int(total_days // days_in_month)
+
+    # Calculate the remaining days after accounting for whole months
+    days = int(total_days % days_in_month)
+
+    return months, days
+
+# Example usage
+decimal_years = 0.29167
+months, days = convert_decimal_years_to_months_days(decimal_years)
+print(f"{decimal_years} years is approximately {months} months and {days} days.")
+
+

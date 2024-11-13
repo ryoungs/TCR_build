@@ -1,0 +1,12 @@
+    <img class ="myImages"
+        id="myImg" src="../stats/Cat_LOS_2024-09-16.png"
+         alt = "LOS"width="50"height="50">
+    <img class ="myImages"
+        id="myImg" src="../stats/Cat_Ages_2024-09-16.png"
+         alt = "Age"width="50"height="50">
+    <img class ="myImages"
+        id="myImg" src="../stats/cat_dog_status_count_2024-09-16.png"
+         alt = "Status"width="50"height="50">
+    <img class ="myImages"
+        id="myImg" src="../stats/By_category_2024-09-16.png"
+         alt = "Category"width="50"height="50">

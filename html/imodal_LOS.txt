@@ -1,0 +1,3 @@
+    <img class ="myImages"
+        id= "myImg" src="../../TCR/stats/Cat_LOS_2024-11-13.png"
+         alt = "LOS" width="50" height="50">
