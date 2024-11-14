@@ -7,8 +7,7 @@ PATH = os.path.dirname(os.path.abspath(__file__)) + os.sep
 # Put the rest of the modules on the path
 sys.path.append(PATH)
 
-
-import aa_unused.constants as K
+import tcr_pkg.constants as K
 import tcr_pkg.backup_clean as buc
 import tcr_pkg.create_animals as ca
 import tcr_pkg.get_all_acc_data as gacc
@@ -23,7 +22,6 @@ import tcr_pkg.get_base_image as gbi
 import tcr_pkg.replace_spaces as rs
 import tcr_pkg.get_ads_list as gal 
 import tcr_pkg.save_captioned_images as psci
-import aa_unused.list_pnyts0 as lpnyts
 import tcr_pkg.create_thumbnails as ctns
 import tcr_pkg.write_gallery_entry as wge
 import tcr_pkg.cat_html_files as cat
@@ -32,7 +30,6 @@ import tcr_stats.plot_hist_kde as phk
 import tcr_stats.list_LOS_by_category as llos
 import tcr_stats.count_all as call
 import tcr_stats.plot_cat_dog_table as cdtbl
-import tcr_stats.category_pie_chart as pie
 import tcr_stats.stacked_category_bar as sbar
 import tcr_stats.write_imodal_txt as wim
 
