@@ -20,10 +20,6 @@
         data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 124 Days" >
         <img src ="f_thumbs/516611BIRDIE_T.jpeg" alt = "BIRDIE">
         </a>
-        <a href = "f_images/524274BRIE BITE.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 25 Days" >
-        <img src ="f_thumbs/524274BRIE BITE_T.jpeg" alt = "BRIE BITE">
-        </a>
         <a href = "f_images/514292CANNELLINI.jpeg" data-Lightbox = "models" 
         data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 146 Days" >
         <img src ="f_thumbs/514292CANNELLINI_T.jpeg" alt = "CANNELLINI">
