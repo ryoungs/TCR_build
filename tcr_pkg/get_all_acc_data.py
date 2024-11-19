@@ -1,5 +1,6 @@
 import requests
 import json
+import pprint as pp
 
 def get_all_acc_data():
     """Get animal Data from AACACC URL  - Note this gets ALL ACC animal data and returns a Json List
@@ -32,4 +33,4 @@ if __name__ == '__main__':
     new_data = get_all_acc_data()
     print(len(new_data))
     #print(len(new_data[1]))
-    print(new_data)
+    pp.pprint(new_data)

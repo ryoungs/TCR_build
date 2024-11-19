@@ -56,8 +56,10 @@ alosa.add_los_age(ads_list) # update young/adult field
 url_img = K.URL_IMAGE
 gbi.get_base_img(ads_list,url_img)
 
-# List the PCs and Picture Not Yet Taken (PNYTs) and concatenate for exclusion
+#  Pause for manual updates to database
+# input("Press ENTER to continue...")
 
+# List the PCs and Picture Not Yet Taken (PNYTs) and concatenate for exclusion
 pc_list = gpc.get_pc_list();
 pnyt_list = gpn.get_pnyt_list()
 no_pub_list = pc_list + pnyt_list  # List of animals to exclude from processing and display
