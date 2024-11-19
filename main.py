@@ -57,7 +57,7 @@ url_img = K.URL_IMAGE
 gbi.get_base_img(ads_list,url_img)
 
 #  Pause for manual updates to database
-# input("Press ENTER to continue...")
+input("Press ENTER to continue...")
 
 # List the PCs and Picture Not Yet Taken (PNYTs) and concatenate for exclusion
 pc_list = gpc.get_pc_list();
