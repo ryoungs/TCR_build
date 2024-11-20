@@ -32,6 +32,7 @@ import tcr_stats.count_all as call
 import tcr_stats.plot_cat_dog_table as cdtbl
 import tcr_stats.stacked_category_bar as sbar
 import tcr_stats.write_imodal_txt as wim
+import tcr_pkg.update_status as ups
 
 # ----------------Backup and re-initialize animals database --------------#
 # Backup & Clean Up +
@@ -56,8 +57,12 @@ alosa.add_los_age(ads_list) # update young/adult field
 url_img = K.URL_IMAGE
 gbi.get_base_img(ads_list,url_img)
 
-#  Pause for manual updates to database
-input("Press ENTER to continue...")
+#  Manual updates to database for specific status changes not online
+#  Need to run until adoption and update Monday & Wed with new status changes
+update_dict={'DAHL':'PC','YASSO':'YES','LIBRARIAN':'YES',
+                'LONDON':'YES','NATHAN\'S FAMOUS':'YES',
+                'BIG PAWZ':'YES','MOLLY':'YES'}
+ups.update_status(update_dict)
 
 # List the PCs and Picture Not Yet Taken (PNYTs) and concatenate for exclusion
 pc_list = gpc.get_pc_list();
