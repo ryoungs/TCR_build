@@ -57,6 +57,7 @@ alosa.add_los_age(ads_list) # update young/adult field
 url_img = K.URL_IMAGE
 gbi.get_base_img(ads_list,url_img)
 
+#
 #  Manual updates to database for specific status changes not online
 #  Need to run until adoption and update Monday & Wed with new status changes
 update_dict={'DAHL':'PC','YASSO':'YES','LIBRARIAN':'YES',
