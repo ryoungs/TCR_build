@@ -60,9 +60,8 @@ gbi.get_base_img(ads_list,url_img)
 #
 #  Manual updates to database for specific status changes not online
 #  Need to run until adoption and update Monday & Wed with new status changes
-update_dict={'DAHL':'PC','YASSO':'YES','LIBRARIAN':'YES',
-                'LONDON':'YES','NATHAN\'S FAMOUS':'YES',
-                'BIG PAWZ':'YES','MOLLY':'YES'}
+#  11-26-24
+update_dict={'DAHL':'PC','YASSO':'YES','KIT':'YES', 'FLAKY TURNOVER':'YES'}
 ups.update_status(update_dict)
 
 # List the PCs and Picture Not Yet Taken (PNYTs) and concatenate for exclusion
