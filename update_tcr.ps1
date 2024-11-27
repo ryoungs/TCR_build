@@ -12,7 +12,6 @@ $repoPath = "C:\Users\Ralph\Desktop\TCR\TCR"
 Write-Output "Running the Python script..."
 python $pythonScriptPath
 
-
 # Step 2: Navigate to the Git repository directory
 Set-Location -Path $repoPath
 

@@ -24,7 +24,8 @@ def write_gallery_entry(no_pub_list,ads_list,category):
         querry = """SELECT * FROM animals WHERE ads = ? 
         AND species = 'CAT'
         AND firstChoiceMessage = 'ASK TO VISIT ME AT THE SHELTER'"""    
-        fname =  "html/html_inputs/lightbox_home_images.txt"        # Animal data file as of today
+        # Animal data file as of today
+        fname =  "html/html_inputs/lightbox_home_images.txt"        
         f = open(fname,"w", encoding = "utf-8")            # open data file for text ouput
         pimages = 'images/'
         pthumb = 'thumbs/'
