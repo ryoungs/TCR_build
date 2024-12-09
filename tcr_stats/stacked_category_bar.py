@@ -1,9 +1,11 @@
 import plotly.graph_objects as go
+import plotly.express as px
 import kaleido
 import pandas as pd
 from datetime import datetime, date
 import sqlite3
 from sqlite_utils import Database
+
 
 def stacked_category_bar(path):
 
@@ -38,24 +40,24 @@ def stacked_category_bar(path):
         print([A2, B2,C2,D2,E2])"""
     
     keys = ['Pending Adopt','Foster to Adopt','Adoptable','In Foster','Rescue-Reclaim']   
-    plt_data = {'Category': ['All','Cats','Dogs'], keys[0]: [A0,A1,A2],keys[1]: [B0,B1,B2],keys[2]: [C0,C1,C2],keys[3]: [D0,D1,D2],keys[4]: [E0,E1,E2] }     
+    plt_data = {'Category': ['All Pets','Cats','Dogs'], keys[0]: [A0,A1,A2],keys[1]: [B0,B1,B2],keys[2]: [C0,C1,C2],keys[3]: [D0,D1,D2],keys[4]: [E0,E1,E2] }     
 
     # Create a sample DataFrame
     # data = {'Category': ['A', 'B', 'C'], 'Value1': [10, 15, 20], 'Value2': [5, 10, 15]}
     df = pd.DataFrame(plt_data)
-
-    # Create the figure
-    fig = go.Figure()
-
-    # Add the bars for each category
-    for column in df.columns[1:]:
-        fig.add_trace(go.Bar(
-            x=df['Category'],
-            y=df[column],
-            name=column
-        ))
-
-    # Update the layout
+    # print(df)
+    
+    # OR
+    df2 = pd.DataFrame([['All Pets','Adopt Pending',A0],['All Pets','Foster to Adopt',B0],['All Pets','Adoptable',C0],['All Pets','In Foster',D0],['All Pets','Rescue',E0],
+                        ['Cats','Adopt Pending',A1],['Cats','Foster to Adopt',B1],['Cats','Adoptable',C1],['Cats','In Foster',D1],['Cats','Rescue',E1],
+                        ['Dogs','Adopt Pending',A2],['Dogs','Foster to Adopt',B2],['Dogs','Adoptable',C2],['Dogs','In Foster',D2],['Dogs','Rescue',E2]],
+                       columns = ['Pets','Category','Count'])
+    
+    fig = px.bar(df2, x="Pets", y="Count", color="Category",
+                 width=1000, height=600,text_auto=True)
+    fig.update_traces(width=0.5)
+    
+        # Update the layout
     fig.update_layout(
         title ={'text':'Number of Animals in the System Today','x':0.5,'xanchor':'center','yanchor':'top'},
         barmode='stack',
@@ -66,13 +68,13 @@ def stacked_category_bar(path):
             family="Arial Rounded MT",
             size=18,
             color="RebeccaPurple"
-        )
-    )
-
+        ))
+        
     # Show the plot
     fig.write_image(fs_category)
     #fig.show()
-    # use
+    # use"""
 if __name__ == '__main__':  # This will run if the file is run directly 
     path = 'html/plots/'
     cf = stacked_category_bar(path)
+#
