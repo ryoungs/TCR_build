@@ -24,7 +24,8 @@ import tcr_pkg.get_ads_list as gal
 import tcr_pkg.save_captioned_images as psci
 import tcr_pkg.create_thumbnails as ctns
 import tcr_pkg.write_gallery_entry as wge
-import tcr_pkg.cat_html_files as cat
+import tcr_pkg.concat_html_files as cat
+import tcr_pkg.get_cat_quote as gcq
 import tcr_stats.list_age_by_sex as las
 import tcr_stats.plot_hist_kde as phk
 import tcr_stats.list_LOS_by_category as llos
@@ -125,7 +126,11 @@ im_path = 'stats/'
 txt_path = 'html/html_inputs/'
 wim.write_imodal_txt(im_path, txt_path)
 
+# Get the Cat quote of the day to make the About page
+gcq.get_cat_quote('html/html_inputs/')
+
 # Finally, concatenate the html template sections into home and foster page files
 
-cat.cat_html_files('home')                  # creates index.html and foster.html
-cat.cat_html_files('foster')       
+cat.concat_html_files('home')                  # creates index.html and foster.html
+cat.concat_html_files('foster')   
+cat.concat_html_files('about')    

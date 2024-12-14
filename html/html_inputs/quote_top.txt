@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About The Cat Room</title>
+    <link rel = "icon" type = "image/x-icon" href = "media/Orange-tabby favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/aboutstyle.css">
+    <link rel="stylesheet" href="css/qstyle.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+
+   <div class="bg">
+        <header class="nav-header-main">
+            <div class="header-main-logo">
+                <img src="media/logo02.jpg" alt="logo">
+                <nav class="header-main-nav">          <!-- put <nav></nav> outside header-main-logo to center -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="foster.html">Fosters</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-main-sm">
+                <a href="https://www.facebook.com/AACAnimalCareControl "><div class="header-main-sm-fb"></div></a>
+                <div class="header-main-sm-in"></div>
+                <div class="header-main-sm-tw"></div>
+            </div>
+        </header>
+        <div class="title">
+            <h1>About</h1>
+        </div>
+    </div>
+
+    <button id="openModal">Cat Quote Of The Day</button>
+    <div class = 'modal' id="modal">
+        <div class="modal-inner">
+            <h2>Cat Quote of the Day</h2>
+            <p>
+            
