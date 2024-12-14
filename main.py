@@ -33,6 +33,7 @@ import tcr_stats.plot_cat_dog_table as cdtbl
 import tcr_stats.stacked_category_bar as sbar
 import tcr_stats.write_imodal_txt as wim
 import tcr_pkg.update_status as ups
+# ----------------TCR Component Paths ------------------------------------# 
 
 # ----------------Backup and re-initialize animals database --------------#
 # Backup & Clean Up +
