@@ -32,10 +32,14 @@ def get_cat_quote(txt_path):
     bquote = aquote.decode("ISO-8859-1",errors='replace') # returns a utf-8 string
     
     cquote = bquote.replace('?', '"',2)  # Replaces first two question marks w/ ""    
-    dquote = cquote.replace('?','--')   # Replaces the 3rd ? with -- 
+    dquote = cquote.replace('?', '-')   # Replaces the 3rd ? with -
                                         # Note em dash is unicode NOT ISO-8859
+    # equote = dquote.split("-")[0]  # to save the quote and author seperately
+    # fquote = dquote.split("-")[1]  # and print with the p tag and pre tag for crlf's
     
     print(dquote,file = f)
+    # print(equote)
+    # print(fquote)
 # Use
 if __name__ == '__main__':  # This will run if the file is run directly
    #txt_path = 'html/html_inputs/'
