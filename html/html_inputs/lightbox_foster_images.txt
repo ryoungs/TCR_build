@@ -1,75 +1,63 @@
 <div class = "lbcontainer">
     <div class = "gallery">
         <a href = "f_images/524908AIR POD.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 45 Days" >
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 51 Days" >
         <img src ="f_thumbs/524908AIR POD_T.jpeg" alt = "AIR POD">
         </a>
         <a href = "f_images/524659BIG PAWZ.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC MEDIUM HAIR,  In the Shelter for 65 Days" >
+        data-title="Altered, DOMESTIC MEDIUM HAIR,  In the Shelter for 71 Days" >
         <img src ="f_thumbs/524659BIG PAWZ_T.jpeg" alt = "BIG PAWZ">
         </a>
         <a href = "f_images/524415BOBBLES.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 81 Days" >
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 87 Days" >
         <img src ="f_thumbs/524415BOBBLES_T.jpeg" alt = "BOBBLES">
         </a>
-        <a href = "f_images/514292CANNELLINI.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 211 Days" >
-        <img src ="f_thumbs/514292CANNELLINI_T.jpeg" alt = "CANNELLINI">
-        </a>
         <a href = "f_images/524737CANNONBALL.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 59 Days" >
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 65 Days" >
         <img src ="f_thumbs/524737CANNONBALL_T.jpeg" alt = "CANNONBALL">
         </a>
-        <a href = "f_images/514293FAVA.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 211 Days" >
-        <img src ="f_thumbs/514293FAVA_T.jpeg" alt = "FAVA">
+        <a href = "f_images/524998DOUGLAS.jpeg" data-Lightbox = "models" 
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 44 Days" >
+        <img src ="f_thumbs/524998DOUGLAS_T.jpeg" alt = "DOUGLAS">
         </a>
         <a href = "f_images/524753FEISTY.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 58 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 64 Days" >
         <img src ="f_thumbs/524753FEISTY_T.jpeg" alt = "FEISTY">
         </a>
-        <a href = "f_images/514294LENTIL.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 211 Days" >
-        <img src ="f_thumbs/514294LENTIL_T.jpeg" alt = "LENTIL">
-        </a>
-        <a href = "f_images/514291LIMA.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 211 Days" >
-        <img src ="f_thumbs/514291LIMA_T.jpeg" alt = "LIMA">
-        </a>
         <a href = "f_images/524367MAJOR LEAGUE.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC MEDIUM HAIR,  In the Shelter for 85 Days" >
+        data-title="Altered, DOMESTIC MEDIUM HAIR,  In the Shelter for 91 Days" >
         <img src ="f_thumbs/524367MAJOR LEAGUE_T.jpeg" alt = "MAJOR LEAGUE">
         </a>
         <a href = "f_images/523826MEGA ICING.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, SIAMESE,  In the Shelter for 115 Days" >
+        data-title="Not Altered, SIAMESE,  In the Shelter for 121 Days" >
         <img src ="f_thumbs/523826MEGA ICING_T.jpeg" alt = "MEGA ICING">
         </a>
         <a href = "f_images/525042MELODY.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 37 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 43 Days" >
         <img src ="f_thumbs/525042MELODY_T.jpeg" alt = "MELODY">
         </a>
         <a href = "f_images/522510MINNIE.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 130 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 136 Days" >
         <img src ="f_thumbs/522510MINNIE_T.jpeg" alt = "MINNIE">
         </a>
         <a href = "f_images/524638MOLLY.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 65 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 71 Days" >
         <img src ="f_thumbs/524638MOLLY_T.jpeg" alt = "MOLLY">
         </a>
         <a href = "f_images/522503MOOCH.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 130 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 136 Days" >
         <img src ="f_thumbs/522503MOOCH_T.jpeg" alt = "MOOCH">
         </a>
         <a href = "f_images/524322NATHAN'S FAMOUS.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 85 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 91 Days" >
         <img src ="f_thumbs/524322NATHAN'S FAMOUS_T.jpeg" alt = "NATHAN'S FAMOUS">
         </a>
         <a href = "f_images/523713STAR-CROSSED LOVE.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC MEDIUM HAIR,  In the Shelter for 120 Days" >
+        data-title="Not Altered, DOMESTIC MEDIUM HAIR,  In the Shelter for 126 Days" >
         <img src ="f_thumbs/523713STAR-CROSSED LOVE_T.jpeg" alt = "STAR-CROSSED LOVE">
         </a>
         <a href = "f_images/524706ZOOMIES.jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 64 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 70 Days" >
         <img src ="f_thumbs/524706ZOOMIES_T.jpeg" alt = "ZOOMIES">
         </a>
     </div>
