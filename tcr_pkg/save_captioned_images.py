@@ -2,6 +2,7 @@ import io
 import sqlite3
 from PIL import Image, ImageDraw, ImageFont
 import tcr_pkg.prep_image as preim
+import tcr_pkg.get_ads_list as gal
 
 def save_captioned_images(no_pub_list,ads_list,page):  # need to trap no image file error
     """Hard coded to adoptable and foster cats"""
@@ -12,11 +13,11 @@ def save_captioned_images(no_pub_list,ads_list,page):  # need to trap no image f
     if page == 'home':
         querry = """SELECT * FROM animals WHERE ads = ? 
         AND species = 'CAT'
-        AND firstChoiceMessage = 'ASK TO VISIT ME AT THE SHELTER'"""         
+        AND firstChoiceMessage = 'VISIT ME AT THE SHELTER'"""         
     elif page  == 'foster':
         querry = """SELECT * FROM animals WHERE ads = ? 
         AND species = 'CAT'       
-        AND firstChoiceMessage = 'IN FOSTER CARE - ASK HOW TO MEET ME'"""
+        AND firstChoiceMessage = 'IN FOSTER CARE'"""
                 
     for i, mmads in enumerate(ads_list):       
         cur.execute(querry, (mmads,))
@@ -25,7 +26,7 @@ def save_captioned_images(no_pub_list,ads_list,page):  # need to trap no image f
         for item in records:
             if item[1] not in no_pub_list:
             #             if item[1] not in no_pub_list: - cat pc and pnyt lists to no_pub_list
-                ads_img =  item[13]  #item[12] is the base image
+                ads_img =  item[13]  #item[13] is the base image
                 ads_name = item[3]
                 ads_sex =  item[9]
                 ads_age =  item[7]   # Age in years
@@ -49,3 +50,9 @@ def save_captioned_images(no_pub_list,ads_list,page):  # need to trap no image f
                 db.commit()
     db.close()
     print('Captions added to base images')
+    
+if __name__ == '__main__':  # This will run if the file is run directly 
+    ads_list = gal.get_ads_list()
+    no_pub_list = []
+    print(len(ads_list))
+    save_captioned_images(no_pub_list,ads_list, 'home')  

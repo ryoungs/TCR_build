@@ -63,13 +63,15 @@ gbi.get_base_img(ads_list,url_img)
 #  Manual updates to database for specific status changes not online
 #  Need to run until adoption and update Monday & Wed with new status changes
 #  11-26-24
-update_dict={'DAHL':'PC','KIT':'YES', 'FLAKY TURNOVER':'YES'}
-ups.update_status(update_dict)
+#update_dict={'DAHL':'PC','KIT':'YES', 'FLAKY TURNOVER':'YES'}
+#ups.update_status(update_dict)
 
 # List the PCs and Picture Not Yet Taken (PNYTs) and concatenate for exclusion
 pc_list = gpc.get_pc_list();
 pnyt_list = gpn.get_pnyt_list()
 no_pub_list = pc_list + pnyt_list  # List of animals to exclude from processing and display
+#no_pub_list = []
+#print(f'No Pub List: {no_pub_list}')
 
 """ TBD for html validation - need to remove spaces in displayed image file names
 rs.replace_spaces('../TCR/thumbs/')   # Change spaces in image files to underline (html validation)
@@ -79,7 +81,7 @@ rs.replace_spaces('../TCR/f_thumbs/')
 """
 
 #--------------------- Create images with captions for Lightbox & write html template
-
+print('Prossessing image captions')
 psci.save_captioned_images(no_pub_list,ads_list, 'home')          # adds under and over captions to base image
 psci.save_captioned_images(no_pub_list,ads_list,'foster')
 

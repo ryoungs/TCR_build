@@ -23,7 +23,7 @@ def write_gallery_entry(no_pub_list,ads_list,category):
     if category == 'home':
         querry = """SELECT * FROM animals WHERE ads = ? 
         AND species = 'CAT'
-        AND firstChoiceMessage = 'ASK TO VISIT ME AT THE SHELTER'"""    
+        AND firstChoiceMessage = 'VISIT ME AT THE SHELTER'"""    
         # Animal data file as of today
         fname =  "html/html_inputs/lightbox_home_images.txt"        
         f = open(fname,"w", encoding = "utf-8")            # open data file for text ouput
@@ -32,7 +32,7 @@ def write_gallery_entry(no_pub_list,ads_list,category):
     elif category == 'foster':
         querry = """SELECT * FROM animals WHERE ads = ? 
         AND species = 'CAT'       
-        AND firstChoiceMessage = 'IN FOSTER CARE - ASK HOW TO MEET ME'"""
+        AND firstChoiceMessage = 'IN FOSTER CARE'"""
         fname =  "html/html_inputs/lightbox_foster_images.txt"        # Animal data file as of today
         f = open(fname,"w", encoding = "utf-8")            # open data file for text ouput
         pimages = 'f_images/'
