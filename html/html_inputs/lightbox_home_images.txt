@@ -29,7 +29,7 @@
         <img src ="thumbs/528016MIDNA_T.jpeg" alt = "MIDNA">
         </a>
         <a href = "images/528149MIGHTY MORPHIN POWER RANGER.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 6 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 6 Days" >
         <img src ="thumbs/528149MIGHTY MORPHIN POWER RANGER_T.jpeg" alt = "MIGHTY MORPHIN POWER RANGER">
         </a>
         <a href = "images/528153PUD.jpeg" data-Lightbox = "models" 
@@ -43,6 +43,10 @@
         <a href = "images/528071SIMBA.jpeg" data-Lightbox = "models" 
         data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 12 Days" >
         <img src ="thumbs/528071SIMBA_T.jpeg" alt = "SIMBA">
+        </a>
+        <a href = "images/528210SINESTRO.jpeg" data-Lightbox = "models" 
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 1 Days" >
+        <img src ="thumbs/528210SINESTRO_T.jpeg" alt = "SINESTRO">
         </a>
         <a href = "images/527294SPUD BRO.jpeg" data-Lightbox = "models" 
         data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 62 Days" >

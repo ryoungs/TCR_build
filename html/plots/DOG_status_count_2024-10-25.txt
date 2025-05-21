@@ -1,8 +1,0 @@
-Count of All DOGs_2024-10-25
-Males:      14
-Females:    18
-Altered:    13
-Strays:     24
-Given UP:   7
-Unassigned: 1
-Total:      32
