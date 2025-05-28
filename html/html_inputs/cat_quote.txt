@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
       "For, though the room was silent, the silence of half a hundred cats is a peculiar thing, like fifty individual silences all piled one on top of another."
     
   -
@@ -7,5 +8,15 @@
   
     
       Jonathan Strange & Mr Norrell
+=======
+      "Everything I tell her reminds her of some cute anecdote about one of her previous jobs, or previous boyfriends, or previous lives, or her cat, Sparkles, who is mitten-toed and sleeps on her head and can't be trusted on catnip."
+    
+  -
+  
+    Kirt J. Boyd,
+  
+    
+      The Last Stop
+>>>>>>> bd3402a364d0fcb90b287acb2abe9c6cddb3c68d
     
 

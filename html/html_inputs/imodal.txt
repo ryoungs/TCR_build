@@ -1,5 +1,6 @@
 <center>
     <img class ="myImages"
+<<<<<<< HEAD
         id="myImg" src="stats/Cat_LOS_2025-05-28.png"
          alt = "LOS" width="50"height="50">
     <img class ="myImages"
@@ -10,5 +11,17 @@
          alt = "Status" width="50"height="50">
     <img class ="myImages"
         id="myImg" src="stats/System_2025-05-28.png"
+=======
+        id="myImg" src="stats/Cat_LOS_2025-05-27.png"
+         alt = "LOS" width="50"height="50">
+    <img class ="myImages"
+        id="myImg" src="stats/Cat_Ages_2025-05-27.png"
+         alt = "Age" width="50"height="50">
+    <img class ="myImages"
+        id="myImg" src="stats/cat_dog_status_count_2025-05-27.png"
+         alt = "Status" width="50"height="50">
+    <img class ="myImages"
+        id="myImg" src="stats/System_2025-05-27.png"
+>>>>>>> bd3402a364d0fcb90b287acb2abe9c6cddb3c68d
          alt = "Category" width="50"height="50">
 </center>

@@ -1,3 +1,7 @@
     <img class ="myImages"
+<<<<<<< HEAD
         id= "myImg" src="../../TCR/stats/Cat_LOS_2025-05-28.png"
+=======
+        id= "myImg" src="../../TCR/stats/Cat_LOS_2025-05-27.png"
+>>>>>>> bd3402a364d0fcb90b287acb2abe9c6cddb3c68d
          alt = "LOS" width="50" height="50">

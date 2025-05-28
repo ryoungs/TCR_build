@@ -17,22 +17,22 @@ def stacked_category_bar(path):
     # All animals
     A0 =  db["animals"].count_where("firstChoiceMessage = ?", ['ADOPTION PENDING',])
     B0 =  db["animals"].count_where("firstChoiceMessage = ?", ['ADOPTION PENDING (OFFSITE)',])
-    C0 =  db["animals"].count_where("firstChoiceMessage = ?", ['ASK TO VISIT ME AT THE SHELTER',])
-    D0 =  db["animals"].count_where("firstChoiceMessage = ?", ['IN FOSTER CARE - ASK HOW TO MEET ME',])
+    C0 =  db["animals"].count_where("firstChoiceMessage = ?", ['VISIT ME AT THE SHELTER',])
+    D0 =  db["animals"].count_where("firstChoiceMessage = ?", ['IN FOSTER CARE',])
     E0 =  db["animals"].count_where("firstChoiceMessage = ?", ['',])  # RESCUE / RECLAIM
 
     # Cats
     A1 =  db["animals"].count_where("species = 'CAT' and firstChoiceMessage = ?", ['ADOPTION PENDING',])
     B1 =  db["animals"].count_where("species = 'CAT' and firstChoiceMessage = ?", ['ADOPTION PENDING (OFFSITE)',])
-    C1 =  db["animals"].count_where("species = 'CAT' and firstChoiceMessage = ?", ['ASK TO VISIT ME AT THE SHELTER',])
-    D1 =  db["animals"].count_where("species = 'CAT' and firstChoiceMessage = ?", ['IN FOSTER CARE - ASK HOW TO MEET ME',])
+    C1 =  db["animals"].count_where("species = 'CAT' and firstChoiceMessage = ?", ['VISIT ME AT THE SHELTER',])
+    D1 =  db["animals"].count_where("species = 'CAT' and firstChoiceMessage = ?", ['IN FOSTER CARE',])
     E1 =  db["animals"].count_where("species = 'CAT' and firstChoiceMessage = ?", ['',])
 
     # Dogs
     A2 =  db["animals"].count_where("species = 'DOG' and firstChoiceMessage = ?", ['ADOPTION PENDING',])
     B2 =  db["animals"].count_where("species = 'DOG' and firstChoiceMessage = ?", ['ADOPTION PENDING (OFFSITE)',])
-    C2 =  db["animals"].count_where("species = 'DOG' and firstChoiceMessage = ?", ['ASK TO VISIT ME AT THE SHELTER',])
-    D2 =  db["animals"].count_where("species = 'DOG' and firstChoiceMessage = ?", ['IN FOSTER CARE - ASK HOW TO MEET ME',])
+    C2 =  db["animals"].count_where("species = 'DOG' and firstChoiceMessage = ?", ['VISIT ME AT THE SHELTER',])
+    D2 =  db["animals"].count_where("species = 'DOG' and firstChoiceMessage = ?", ['IN FOSTER CARE',])
     E2 =  db["animals"].count_where("species = 'DOG' and firstChoiceMessage = ?", ['',])
 
     """ print([A0, B0,C0,D0,E0])
@@ -71,10 +71,16 @@ def stacked_category_bar(path):
         ))
         
     # Show the plot
-    fig.write_image(fs_category)
+    #fig.write_image(fs_category)   # problems with plotly write_image
     #fig.show()
+    # Convert the figure to bytes
+    img_bytes = fig.to_image(format="png")
+
+# Write the bytes to a file
+    with open(fs_category, "wb") as f:
+        f.write(img_bytes)
+
     # use"""
 if __name__ == '__main__':  # This will run if the file is run directly 
     path = 'html/plots/'
-    cf = stacked_category_bar(path)
-#
+    stacked_category_bar(path)
