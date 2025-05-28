@@ -1,3 +1,3 @@
     <img class ="myImages"
-        id= "myImg" src="../../TCR/stats/Cat_LOS_2025-03-22.png"
+        id= "myImg" src="../../TCR/stats/Cat_LOS_2025-05-28.png"
          alt = "LOS" width="50" height="50">
