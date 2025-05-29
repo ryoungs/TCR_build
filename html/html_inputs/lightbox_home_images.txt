@@ -16,9 +16,13 @@
         data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 4 Days" >
         <img src ="thumbs/528279BUFFALO WILD WINGS_T.jpeg" alt = "BUFFALO WILD WINGS">
         </a>
-        <a href = "images/528174FREDDIE PRINCE JR..jpeg" data-Lightbox = "models" 
-        data-title="Altered, DOMESTIC MEDIUM HAIR,  In the Shelter for 11 Days" >
-        <img src ="thumbs/528174FREDDIE PRINCE JR._T.jpeg" alt = "FREDDIE PRINCE JR.">
+        <a href = "images/528300DIRTBIKE.jpeg" data-Lightbox = "models" 
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 1 Days" >
+        <img src ="thumbs/528300DIRTBIKE_T.jpeg" alt = "DIRTBIKE">
+        </a>
+        <a href = "images/528347FRODO.jpeg" data-Lightbox = "models" 
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 1 Days" >
+        <img src ="thumbs/528347FRODO_T.jpeg" alt = "FRODO">
         </a>
         <a href = "images/527721HOLSTEIN.jpeg" data-Lightbox = "models" 
         data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 46 Days" >
@@ -37,15 +41,27 @@
         <img src ="thumbs/528286MULBERRY_T.jpeg" alt = "MULBERRY">
         </a>
         <a href = "images/528260O.G..jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 6 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 6 Days" >
         <img src ="thumbs/528260O.G._T.jpeg" alt = "O.G.">
+        </a>
+        <a href = "images/528348PEA POD.jpeg" data-Lightbox = "models" 
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 0 Days" >
+        <img src ="thumbs/528348PEA POD_T.jpeg" alt = "PEA POD">
+        </a>
+        <a href = "images/528336PEPPER.jpeg" data-Lightbox = "models" 
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 4 Days" >
+        <img src ="thumbs/528336PEPPER_T.jpeg" alt = "PEPPER">
         </a>
         <a href = "images/528153PUD.jpeg" data-Lightbox = "models" 
         data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 12 Days" >
         <img src ="thumbs/528153PUD_T.jpeg" alt = "PUD">
         </a>
+        <a href = "images/528338RITO.jpeg" data-Lightbox = "models" 
+        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 1 Days" >
+        <img src ="thumbs/528338RITO_T.jpeg" alt = "RITO">
+        </a>
         <a href = "images/528261SALTICIDAE.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 6 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 6 Days" >
         <img src ="thumbs/528261SALTICIDAE_T.jpeg" alt = "SALTICIDAE">
         </a>
         <a href = "images/528263SAVANNAH.jpeg" data-Lightbox = "models" 
@@ -53,8 +69,12 @@
         <img src ="thumbs/528263SAVANNAH_T.jpeg" alt = "SAVANNAH">
         </a>
         <a href = "images/528210SINESTRO.jpeg" data-Lightbox = "models" 
-        data-title="Not Altered, DOMESTIC SHORT HAIR,  In the Shelter for 8 Days" >
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 8 Days" >
         <img src ="thumbs/528210SINESTRO_T.jpeg" alt = "SINESTRO">
+        </a>
+        <a href = "images/528335SPANKY.jpeg" data-Lightbox = "models" 
+        data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 0 Days" >
+        <img src ="thumbs/528335SPANKY_T.jpeg" alt = "SPANKY">
         </a>
         <a href = "images/527294SPUD BRO.jpeg" data-Lightbox = "models" 
         data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 69 Days" >
@@ -63,6 +83,10 @@
         <a href = "images/528102SWAG.jpeg" data-Lightbox = "models" 
         data-title="Altered, DOMESTIC SHORT HAIR,  In the Shelter for 15 Days" >
         <img src ="thumbs/528102SWAG_T.jpeg" alt = "SWAG">
+        </a>
+        <a href = "images/528345WINSTON CHURCHILL.jpeg" data-Lightbox = "models" 
+        data-title="Altered, SNOWSHOE,  In the Shelter for 0 Days" >
+        <img src ="thumbs/528345WINSTON CHURCHILL_T.jpeg" alt = "WINSTON CHURCHILL">
         </a>
     </div>
 </div>
