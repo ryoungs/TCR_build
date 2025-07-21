@@ -31,7 +31,11 @@
 <h3><center> <a href=
 "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center">
 Cornell Feline Health Center</a></center></h3>
+<br>
 
+<h3><center> <a href=
+"https://www.jacksongalaxy.com/blogs/news">
+Jackson Galaxy - BUILD THE BOND - Your Happy Cat Learning</a></center></h3>
 <br>
 
 <h3><center> <a href="https://americanpetsalive.org/uploads/resources/Austin-Pets-Alive-Guide-to-Socializing-Cats-52F6.pdf"> American Pets Alive Guide to Socializing Adult Cats</a></center></h3>

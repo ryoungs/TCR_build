@@ -99,4 +99,4 @@ def save_contact_sheet(n_images):
 
     # use
 if __name__ == '__main__':  # This will run if the file is run directly
-    save_contact_sheet(44)
+    save_contact_sheet(63)
