@@ -80,7 +80,7 @@ def save_contact_sheet(n_images):
     d0 = dt.date.today().isoformat()
     csheet = '../TCR_archives/contact_sheet_' + d0 + '.png'
     
-    ncols = 5
+    ncols = 6
     nrows = math.ceil(n_images/ncols)
 
     # Don't bother reading in files we aren't going to use

@@ -15,7 +15,7 @@
    <div class="bg">
         <header class="nav-header-main">
             <div class="header-main-logo">
-                <img src="media/logo02.jpg" alt="logo">
+                <img src="media/logoImg03.png" alt="logo">
                 <nav class="header-main-nav">          <!-- put <nav></nav> outside header-main-logo to center -->
                     <ul>
                         <li><a href="index.html">Home</a></li>
