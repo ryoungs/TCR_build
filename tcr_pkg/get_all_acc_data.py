@@ -8,7 +8,7 @@ def get_all_acc_data():
 
     url = 'https://aacoprod-inter.aacounty.org/AACOServicePublic/rest/AnimalControlImages/Y/getRedemptionPets'
 
-    r = requests.get(url, timeout= 10)
+    r = requests.get(url, timeout= 30)
     sB = r.content   # sB is a byte object!!  e.g. print(type(s0))
     sC = sB.decode()  # make it a string
     sD = sC.replace("getRedemptionPets([","[")  # Strip Leading stuff
@@ -17,7 +17,7 @@ def get_all_acc_data():
 
     url = 'https://aacoprod-inter.aacounty.org/AACOServicePublic/rest/AnimalControlImages/R/loadAnimals'
 
-    r = requests.get(url, timeout= 10)
+    r = requests.get(url, timeout= 30)
     sB = r.content   # sB is a byte object!!  e.g. print(type(s0))
     sC = sB.decode()  # make it a string
     sD = sC.replace("loadAnimals([","[")  # Strip Leading stuff

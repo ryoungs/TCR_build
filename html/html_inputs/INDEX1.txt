@@ -25,7 +25,7 @@
                 </nav>
             </div>
             <div class="header-main-sm">
-                <a href="https://www.facebook.com/AACAnimalCareControl "><div class="header-main-sm-fb"></div></a>
+                <a href="https://www.aacounty.org/animal-services"><div class="header-main-sm-fb"></div></a>
                 <div class="header-main-sm-in"></div>
                 <a href="https://bsky.app/profile/catroomralph.bsky.social"><div class="header-main-sm-tw"></div></a>
             </div>
@@ -38,8 +38,8 @@
 <br>
 
 <div>
-    <h3><center> <a href="https://www.aacounty.org/animal-control">        
-    Adoptable Cats at Anne Arundel County Animal Care & Control</a> </center> </h3> 
+    <h3><center> <a href="https://www.aacounty.org/animal-servicesl">        
+    Adoptable Cats at Anne Arundel County Animal Services</a> </center> </h3> 
     <br>
     <h3><center>411 Maxwell Frye Road, Millersville, MD 21108 </center></h3>
     <br>
