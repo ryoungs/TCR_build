@@ -17,11 +17,11 @@
     <h3><center> <script> document.write(new Date().toLocaleDateString())</script></center></h3>
 <div>
 
-    <p style="padding: 10px 50px 10px">  The objective of "The Cat Room" is to present Cats at Animal Care & Control in a slightly different way. We hope to give potental adoptors and those looking for lost animals quick access to pictures and data. </a></p>
+    <p style="padding: 10px 50px 10px">  The objective of "The Cat Room" is to present Cats at Animal Services in a slightly different way. We hope to give potental adoptors and those looking for lost animals quick access to pictures and data. </a></p>
 
     <p style="padding: 10px 50px 10px">  For more photos and information about fosters, <a href="foster.html">click here and go to bottom of the Foster page</a>!</p>
 
-    <p style="padding: 10px 50px 10px">   The Cat Room follows the terms and conditions of Anne Arundel County Animal Care & Control (AACACC).  All the photos and data come from the primary AACACC webpages.  With just one click, The Cat Room is accessible and quick to reach; it is especially helpful for those looking for a lost cat as it combines information (age, length of stay, sex, etc.) with a photo. In the future look for links to "The Cat Room" in social media.  Expect changes and an occasional oops.  We hope it is useful and results in more adoptions and redemptions.<p>
+    <p style="padding: 10px 50px 10px">   The Cat Room follows the terms and conditions of Anne Arundel County Animal Services(AACAS).  All the photos and data come from the primary AACACC webpages.  With just one click, The Cat Room is accessible and quick to reach; it is especially helpful for those looking for a lost cat as it combines information (age, length of stay, sex, etc.) with a photo. In the future look for links to "The Cat Room" in social media.  Expect changes and an occasional oops.  We hope it is useful and results in more adoptions and redemptions.<p>
 
     <p style="padding: 10px 50px 20px"> The Cat Room will also be a place with feline behavior references as well as historical day to day statistics for the cats in the shelter's care.  
 </div>
