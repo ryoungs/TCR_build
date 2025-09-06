@@ -11,7 +11,7 @@ def get_base_img(ads_list, url_img):
 #        but no error is thrown in archive/test_get_put_image0.py
     for i, mmads in enumerate(ads_list):
         
-        im = requests.get(url_img + mmads + ".jpeg", timeout=10)
+        im = requests.get(url_img + mmads + ".jpeg", timeout=20)
         img = im.content
         
         im_bin = sqlite3.Binary(im.content)
