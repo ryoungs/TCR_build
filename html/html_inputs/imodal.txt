@@ -1,14 +1,14 @@
 <center>
     <img class ="myImages"
-        id="myImg" src="stats/Cat_LOS_2025-09-10.png"
+        id="myImg" src="stats/Cat_LOS_2025-09-11.png"
          alt = "LOS" width="50"height="50">
     <img class ="myImages"
-        id="myImg" src="stats/Cat_Ages_2025-09-10.png"
+        id="myImg" src="stats/Cat_Ages_2025-09-11.png"
          alt = "Age" width="50"height="50">
     <img class ="myImages"
-        id="myImg" src="stats/cat_dog_status_count_2025-09-10.png"
+        id="myImg" src="stats/cat_dog_status_count_2025-09-11.png"
          alt = "Status" width="50"height="50">
     <img class ="myImages"
-        id="myImg" src="stats/System_2025-09-10.png"
+        id="myImg" src="stats/System_2025-09-11.png"
          alt = "Category" width="50"height="50">
 </center>
