@@ -3,8 +3,8 @@ import json
 import pprint as pp
 
 def get_all_acc_data():
-    """Get animal Data from AACACC URL  - Note this gets ALL ACC animal data and returns a Json List
-       Note there are two sources of data getRedemptionPets and loadAnimals the latter will have "interest: null" """
+    """Get animal Data from AACAS URL  - Note this gets ALL ACC animal data and returns a Json List
+       There are two sources of data getRedemptionPets and loadAnimals the latter will have "interest: null" """
 
     url = 'https://aacoprod-inter.aacounty.org/AACOServicePublic/rest/AnimalControlImages/Y/getRedemptionPets'
 
