@@ -2,7 +2,7 @@ import os
 import shutil
 import datetime as dt
 import tcr_pkg.delete_files_in_directory as df
-# import delete_files_in_directory as df  # for testing
+#import delete_files_in_directory as df  # for testing
 
 # backup database adding yesterday's date to backup file name
 # TBD throws an error if dbase is not present!
