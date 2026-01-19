@@ -2,8 +2,6 @@ from PIL import Image, ImageDraw, ImageFont
 import matplotlib.pyplot as plt
 import pandas as pd 
 from pandas.plotting import table
-# tests
-# import count_all as ca
 
 def plot_cat_dog_table(fname, cat_total, dog_total):
 
@@ -78,12 +76,3 @@ def save_tables_as_image(data1, data2, filename, title1=None, title2=None):
 
     # Close the plot
     plt.close()
-
-    # use
-if __name__ == '__main__': 
-        path = 'html/plots/'
-        fname = 'testplt.png'
-        dog_total = ca.count_all('DOG',path) 
-        cat_total = ca.count_all('CAT',path)
-        print(f"Dogs: {dog_total} Cats: {cat_total}")
-        plot_cat_dog_table(fname, cat_total, dog_total)

@@ -116,7 +116,7 @@ fname = path + 'cat_dog_status_count_' + d0 + '.png'
 cat_total = call.count_all('CAT',path)
 dog_total = call.count_all('DOG',path)
 
-#cdtbl.plot_cat_dog_table(fname, cat_total, dog_total)
+cdtbl.plot_cat_dog_table(fname, cat_total, dog_total)
 
 # III ---------------- Create Stacked Bar Chart for Cat, Dog, All Animals Totals ---------
 sbar.stacked_category_bar(path)
