@@ -1,0 +1,27 @@
+
+https://superuser.com/questions/1774762/elevated-powershell-instance-no-longer-working-on-win-11
+
+
+-ExecutionPolicy Bypass -File "C:\Users\Ralph\Desktop\TCR\TCR_build\update_tcr.ps1"
+
+
+Set-ExecutionPolicy : Windows PowerShell updated your execution policy successfully, but the setting is overridden by
+a policy defined at a more specific scope.  Due to the override, your shell will retain its current effective
+execution policy of Bypass. Type "Get-ExecutionPolicy -List" to view your execution policy settings. For more
+information please see "Get-Help Set-ExecutionPolicy".
+At C:\Users\Ralph\Desktop\TCR\TCR_build\update_tcr.ps1:4 char:1
++ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], SecurityException
+    + FullyQualifiedErrorId : ExecutionPolicyOverride,Microsoft.PowerShell.Commands.SetExecutionPolicyCommand
+Set-ExecutionPolicy : Windows PowerShell updated your execution policy successfully, but the setting is overridden by
+a policy defined at a more specific scope.  Due to the override, your shell will retain its current effective
+execution policy of Bypass. Type "Get-ExecutionPolicy -List" to view your execution policy settings. For more
+information please see "Get-Help Set-ExecutionPolicy".
+At C:\Users\Ralph\Desktop\TCR\TCR_build\update_tcr.ps1:5 char:1
++ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], SecurityException
+    + FullyQualifiedErrorId : ExecutionPolicyOverride,Microsoft.PowerShell.Commands.SetExecutionPolicyCommand
+	
+	
