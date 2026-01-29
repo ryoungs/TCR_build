@@ -24,4 +24,4 @@ At C:\Users\Ralph\Desktop\TCR\TCR_build\update_tcr.ps1:5 char:1
     + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], SecurityException
     + FullyQualifiedErrorId : ExecutionPolicyOverride,Microsoft.PowerShell.Commands.SetExecutionPolicyCommand
 	
-	
+C:\Users\Ralph\Desktop\TCR\TCR_build\update_tcr.ps1
